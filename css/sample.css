@@ -24,7 +24,14 @@ header p {
   text-align: center;
   margin-bottom: 10px; }
   header p .site-title {
-    margin: 20px 10px 10px 10px; }
+    margin: 20px 10px 10px 10px;
+    width: 110px;
+    height: auto; }
+    @media (min-width: 550px) {
+      header p .site-title {
+        margin: 20px 10px 10px 0px;
+        width: 142px;
+        height: auto; } }
 header .sp_navi {
   text-align: center; }
   header .sp_navi li {
@@ -42,7 +49,7 @@ header .sp_navi {
     left: 0px;
     z-index: 100; }
     header .sp_navi .sp_menu_li li {
-      margin: 10px;
+      margin: 4px 10px;
       border-bottom: 1px solid white;
       padding: 3px 3px 10px 3px;
       width: 90%; }
@@ -260,7 +267,7 @@ main #maincontents #sidemenu .search {
     #footer_nav .footer_navi .footer_line {
       background-color: #887f69;
       width: 100%;
-      height: 0.7px; }
+      height: 1px; }
     #footer_nav .footer_navi .footer_link {
       color: black;
       text-align: center;
